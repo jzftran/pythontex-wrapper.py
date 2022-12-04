@@ -1,7 +1,7 @@
 pythontex-wrapper [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 =================
 
-pythontex-wrapper.py is a Python-based wrapper around pdflatex to use pythontex in lyx. The original idea comes from https://github.com/mghansen256/pythontex-wrapper. Because the script is implemented in Python, in theory is hould be a cross-platform solution.
+pythontex-wrapper.py is a Python-based wrapper around pdflatex to use pythontex in lyx. The original idea comes from https://github.com/mghansen256/pythontex-wrapper. Because the script is implemented in Python, in theory it should be a cross-platform solution.
 
 ## Usage
 
