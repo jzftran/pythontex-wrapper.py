@@ -5,7 +5,9 @@ pythontex-wrapper.py is a Python-based wrapper around pdflatex to use pythontex 
 
 ## Usage
 
-Modify an existing format converter in lyx (for example pdflatex) to use pythontex-wrapper.sh instead of pdflatex.
+Modify an existing format converter in lyx (for example pdflatex) to use compile_tex.py instead of pdflatex.
+In compile_tex.py modify latexcommand, python_path and pythontexcommand to appropriate paths.
+
 
 In the *CONVERTERS SECTION* in the lyx configuration file (preferences file), you should specify Python instance that will run the compile_tex.py to look similar to this:
 
@@ -16,3 +18,5 @@ In the *CONVERTERS SECTION* in the lyx configuration file (preferences file), yo
     \converter "pdflatex" "pdf2" "\"C:\\Users\\makro\\.conda\\envs\\thesis\\python.exe\" \"C:\\Users\\makro\\Downloads\\pythontex-wrapper-master\\compile_tex.py\" $$i" "latex=pdflatex,hyperref-driver=pdftex"
 
 Note that the Python instance should have installed pygments, and other dependencies that are used by pythontex and your LyX/LaTeX file uses.
+
+
